@@ -1,0 +1,40 @@
+{
+  "name": "bpftrace-vscode",
+  "displayName": "bpftrace",
+  "description": "Syntax highlighter for bpftrace",
+  "version": "0.1.0",
+  "publisher": "mdaverde",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bpfdeploy-io/bpftrace-vscode.git"
+  },
+  "engines": {
+    "vscode": "^1.39.0"
+  },
+  "main": "./out/extension.js",
+  "contributes": {
+    "grammars": [
+      {
+        "language": "locations",
+        "path": "./locations-syntax.json",
+        "scopeName": "source.locations"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "lint": "eslint . --ext .ts,.tsx",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/vscode": "^1.39.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "eslint": "^8.13.0",
+    "typescript": "^4.7.2"
+  }
+}
