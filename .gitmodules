@@ -1,0 +1,3 @@
+[submodule "bpftrace"]
+	path = bpftrace
+	url = git@github.com:iovisor/bpftrace.git
