@@ -8,26 +8,54 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:bpfdeploy-io/bpftrace-vscode.git"
+    "url": "https://github.com/bpfdeploy-io/bpftrace-vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/bpfdeploy-io/bpftrace-vscode/issues"
   },
   "engines": {
     "vscode": "^1.39.0"
   },
-  "main": "./out/extension.js",
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "bpftrace",
+    "bpf",
+    "ebpf",
+    "linux",
+    "dtrace",
+    "awk",
+    "tracing"
+  ],
   "contributes": {
+    "languages": [
+      {
+        "id": "bpftrace",
+        "aliases": [
+          "bpftrace"
+        ],
+        "extensions": [
+          ".bt"
+        ]
+      }
+    ],
     "grammars": [
       {
-        "language": "locations",
-        "path": "./locations-syntax.json",
-        "scopeName": "source.locations"
+        "language": "bpftrace",
+        "path": "./bpftrace.tmLanguage.json",
+        "scopeName": "source.bpftrace",
+        "embeddedLanguages": {
+          "meta.embedded.block.c": "c"
+        }
       }
     ]
   },
   "scripts": {
-    "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "lint": "eslint . --ext .ts,.tsx",
-    "watch": "tsc -watch -p ./"
+    "watch": "tsc -watch -p ./",
+    "pkg": "vsce package"
   },
   "devDependencies": {
     "@types/node": "^16.11.7",
@@ -35,6 +63,7 @@
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
     "eslint": "^8.13.0",
-    "typescript": "^4.7.2"
+    "typescript": "^4.7.2",
+    "vsce": "^2.10.0"
   }
 }
