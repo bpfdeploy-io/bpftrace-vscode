@@ -2,8 +2,8 @@
   "name": "bpftrace-vscode",
   "displayName": "bpftrace",
   "description": "Syntax highlighter for bpftrace",
-  "version": "0.1.0",
-  "publisher": "mdaverde",
+  "version": "0.1.1",
+  "publisher": "e1568e4d-f695-62fe-827b-050ee0dfd8cf",
   "license": "MIT",
   "repository": {
     "type": "git",
