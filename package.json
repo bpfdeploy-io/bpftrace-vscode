@@ -1,7 +1,7 @@
 {
   "name": "bpftrace-vscode",
   "displayName": "bpftrace",
-  "description": "Syntax highlighter for bpftrace",
+  "description": "Extension for bpftrace",
   "version": "0.1.1",
   "publisher": "e1568e4d-f695-62fe-827b-050ee0dfd8cf",
   "license": "MIT",
@@ -54,7 +54,8 @@
     "compile": "tsc -p ./",
     "lint": "eslint . --ext .ts,.tsx",
     "watch": "tsc -watch -p ./",
-    "pkg": "vsce package"
+    "pkg": "vsce package",
+    "publish": "vsce publish"
   },
   "devDependencies": {
     "@types/node": "^16.11.7",

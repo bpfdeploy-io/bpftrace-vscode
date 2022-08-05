@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.github.com/bpfdeploy-io/bpftrace-vscode/master/assets/header.svg" />
+  <img src="https://raw.github.com/bpfdeploy-io/bpftrace-vscode/master/assets/header.png" />
   <br>
   <h2>VS Code extension for bpftrace</h2>
 </div>
@@ -46,5 +46,3 @@ In alignment with bpftrace, we've licensed this plugin under the Apache License,
 We want to say thank you to the [bpftrace](https://github.com/iovisor/bpftrace) community for providing the high-level tracing tool and continuing to keep their documentation up to date.
 
 Maintained by [bpfdeploy.io](https://bpfdeploy.io)
-
-![bpfdeploy.io](https://raw.github.com/bpfdeploy-io/bpftrace-vscode/master/assets/logolarge.svg)
