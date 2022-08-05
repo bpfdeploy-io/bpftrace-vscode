@@ -3,7 +3,7 @@
   "displayName": "bpftrace",
   "description": "Extension for bpftrace",
   "version": "0.1.3",
-  "publisher": "bpfdeploy-io",
+  "publisher": "bpfdeploy",
   "license": "Apache-2.0",
   "homepage": "https://bpfdeploy.io",
   "icon": "assets/mascot.png",
