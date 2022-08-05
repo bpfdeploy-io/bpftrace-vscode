@@ -3,17 +3,24 @@
   "displayName": "bpftrace",
   "description": "Extension for bpftrace",
   "version": "0.1.2",
-  "publisher": "e1568e4d-f695-62fe-827b-050ee0dfd8cf",
-  "license": "MIT",
+  "publisher": "bpfdeploy-io",
+  "license": "Apache 2.0",
+  "homepage": "https://bpfdeploy.io",
+  "icon": "assets/mascot.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/bpfdeploy-io/bpftrace-vscode"
   },
   "bugs": {
-    "url": "https://github.com/bpfdeploy-io/bpftrace-vscode/issues"
+    "url": "https://github.com/bpfdeploy-io/bpftrace-vscode/issues",
+    "email": "team@bpfdeploy.io"
   },
   "engines": {
     "vscode": "^1.39.0"
+  },
+  "galleryBanner": {
+    "color": "#01253B",
+    "theme": "light"
   },
   "categories": [
     "Programming Languages"

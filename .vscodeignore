@@ -5,4 +5,4 @@ bpftrace/
 tsconfig.json
 .gitignore
 .gitmodules
-assets/
+assets/*.svg
