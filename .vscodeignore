@@ -1,0 +1,7 @@
+bpftrace/
+.vscode/
+.vscodeignore
+*.vsix
+tsconfig.json
+.gitignore
+.gitmodules
