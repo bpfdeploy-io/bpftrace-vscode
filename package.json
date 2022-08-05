@@ -2,7 +2,7 @@
   "name": "bpftrace-vscode",
   "displayName": "bpftrace",
   "description": "Extension for bpftrace",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "e1568e4d-f695-62fe-827b-050ee0dfd8cf",
   "license": "MIT",
   "repository": {
