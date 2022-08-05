@@ -1,12 +1,10 @@
 <div align="center">
-  <h1>bpftrace-vscode</h1>
-  <p>
-    VS Code plugin for bpftrace
-  </p>
+  <img src="https://raw.github.com/bpfdeploy-io/bpftrace-vscode/master/assets/header.svg" />
   <br>
+  <h2>VS Code extension for bpftrace</h2>
 </div>
 
-The goal of this plugin is to aid bpftrace developers in script writing from their VS Code environment.
+The goal of this plugin is to aid eBPF developers with their bpftrace scripts from their VS Code environment.
 Use this with your favorite VS Code theme!
 
 We have started with syntax highlighting, but we aim to add more features that leverage VS Code's plugin API.
@@ -30,7 +28,7 @@ Bug reports may be filed on our [Github issue tracker](https://github.com/bpfdep
 
 ## Testing
 
-Our testing strategy is currently manual, [unfortunately](https://github.com/bpfdeploy-io/bpftrace-vscode/issues/1).
+Our testing strategy is currently [manual](https://github.com/bpfdeploy-io/bpftrace-vscode/issues/1), unfortunately.
 
 The official bpftrace repo contains a set of tools that we confirm our changes against as we make changes.
 We have added a git submodule of the version of the bptrace repo we have tested our latest changes on.
