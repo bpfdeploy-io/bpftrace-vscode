@@ -1,5 +1,5 @@
 {
-  "name": "bpftrace-vscode",
+  "name": "bpftrace",
   "displayName": "bpftrace",
   "description": "Extension for bpftrace",
   "version": "0.1.3",
