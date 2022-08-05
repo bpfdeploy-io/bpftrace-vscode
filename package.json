@@ -4,7 +4,6 @@
   "description": "Syntax highlighter for bpftrace",
   "version": "0.1.0",
   "publisher": "mdaverde",
-  "private": true,
   "license": "MIT",
   "repository": {
     "type": "git",
