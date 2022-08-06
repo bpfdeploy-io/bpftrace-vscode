@@ -16,9 +16,9 @@ Syntax highlight features:
 - Labels bpftrace builtins
 - Highlights escape sequences within strings
 
-<!-- Link to plugin page -->
+## Preview
 
-<!-- Image to syntax highlighting example -->
+<img src="https://raw.github.com/bpfdeploy-io/bpftrace-vscode/master/assets/beforeafter.gif" width="350" height="350"/>
 
 ## Installation
 
