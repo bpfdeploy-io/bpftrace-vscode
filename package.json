@@ -2,7 +2,7 @@
   "name": "bpftrace",
   "displayName": "bpftrace",
   "description": "Syntax highlighter for bpftrace",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "bpfdeploy",
   "license": "Apache-2.0",
   "homepage": "https://bpfdeploy.io",

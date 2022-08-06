@@ -36,7 +36,7 @@ Bug reports may be filed on our [Github issue tracker](https://github.com/bpfdep
 
 ## Testing
 
-Our testing strategy is currently [manual](https://github.com/bpfdeploy-io/bpftrace-vscode/issues/1), unfortunately.
+Our testing strategy is currently [manual](https://github.com/bpfdeploy-io/bpftrace-vscode/issues/1).
 
 The official bpftrace repo contains a set of tools that we confirm our changes against as we make changes.
 We have added a git submodule of the version of the bptrace repo we have tested our latest changes on.

@@ -6,3 +6,4 @@ tsconfig.json
 .gitignore
 .gitmodules
 assets/*.svg
+assets/*.gif
