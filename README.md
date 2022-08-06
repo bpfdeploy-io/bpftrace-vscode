@@ -20,6 +20,14 @@ Syntax highlight features:
 
 <!-- Image to syntax highlighting example -->
 
+## Installation
+
+You can search directly for "bpftrace" in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or install directly through your command line:
+
+```shell
+$ ext install bpfdeploy.bpftrace
+```
+
 ## Contributing
 
 The possibilities are endless with VS Code extensions so we encourage all ideas and contributions.
