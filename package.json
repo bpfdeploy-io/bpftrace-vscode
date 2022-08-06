@@ -15,6 +15,7 @@
     "url": "https://github.com/bpfdeploy-io/bpftrace-vscode/issues",
     "email": "team@bpfdeploy.io"
   },
+  "author": "bpfdeploy.io <team@bpfdeploy.io> (https://bpfdeploy.io)",
   "engines": {
     "vscode": "^1.39.0"
   },
